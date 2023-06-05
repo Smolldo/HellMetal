@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Open+Sans:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: block;
+}
+
+:root{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+.header_cover{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 46px;
+  color: orangered;
+  margin: 10px;
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  margin: auto 10px;
+}
+
+a{
+  font-size: 30px;
+
+  color: orangered;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  color: rgb(195, 255, 0);
+
+}
+/*Cats*/
+.baner{
+  min-width: 900px;
+  min-height: 200px;
+  background: url('./imgs/металюга.jpg');
+}
+
+.categories{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px;
+  color: orangered;
+}
+
+.categories:hover{
+  cursor: pointer;
+}
+
+img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 200px;
+  max-height: 300px;
+  aspect-ratio: 13/16;
+  object-fit: fill;
+}
+
+body{
+  background: url('./imgs/back.jpg');
+  font-family: 'New Rocker', cursive;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+
+.item{
+  background-color: rgb(255, 255, 255);
+  margin: 30px ;
+  max-width: 200px;
+  max-height: auto;
+  border-radius: 10px;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.price{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+.mainBlock{
+  background-color: rgba(79, 79, 79, 0.95);
+}
